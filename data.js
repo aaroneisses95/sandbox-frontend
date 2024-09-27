@@ -7,12 +7,12 @@ var threads = [
         content: "Thread content",
         comments: [
             {
-                author: "Jack",
+                author: "Bart",
                 date: Date.now(),
                 content: "Hey there"
             },
             {
-                author: "Arthur",
+                author: "Coen",
                 date: Date.now(),
                 content: "Hi back"
             }
@@ -26,12 +26,12 @@ var threads = [
         content: "Thread content",
         comments: [
             {
-                author: "Jack",
+                author: "Dirk",
                 date: Date.now(),
                 content: "Hey there"
             },
             {
-                author: "Arthur",
+                author: "Eva",
                 date: Date.now(),
                 content: "Hi back"
             }

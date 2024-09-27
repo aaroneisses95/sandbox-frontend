@@ -77,46 +77,73 @@
     </script>
     <style>
         body {
-            margin: 10px 60px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .top-bar {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .top-bar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        ol {
+            padding: 0;
+            list-style: none;
+        }
+
+        .row {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .row:last-child {
+            border-bottom: none;
         }
 
         a {
             text-decoration: none;
-            color: black;
+            color: #007BFF;
         }
 
-        h1,
-        h4,
-        ol {
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .title {
+            font-size: 20px;
             margin: 0;
-        }
-
-        p {
-            margin: 5px 0;
-        }
-
-        .top-bar {
-            background-color: skyblue;
-            padding: 0 40px;
-        }
-
-        .main {
-            background-color: #F6F6EF;
-            padding: 10px 0;
-        }
-
-        .row {
-            padding: 5px 0;
         }
 
         .bottom {
             display: flex;
-            color: grey;
-            font-size: 12px;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
         }
 
         .timestamp {
-            padding-right: 100px
+            margin-right: 20px;
         }
     </style>
 </body>
